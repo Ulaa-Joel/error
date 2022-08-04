@@ -1,0 +1,45 @@
+html {
+    min-height: 100%;
+}
+body{
+    background-image: url(./bro\ \(1\).jpg);
+    background-size: 70% 80%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    position: relative;
+    font-family: poppins;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    font-weight: 550;
+}
+#transparent-box{
+    top: 16rem;
+    border: 1px solid grey;
+    width: 40%;
+    position: relative;
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+button{
+    background-color: #111f4d;
+    width: 19em;
+    height: 3em;
+    border: 1px solid #111f4d;
+    border-radius: 6px;
+    color: white;
+    font-family: poppins;
+    font-weight: 550;
+    transition: 1sec linear;
+    position: relative;
+    top: 17rem;
+}
+button#req-pass:hover{
+    background-color: rgb(54, 54, 99);
+}
